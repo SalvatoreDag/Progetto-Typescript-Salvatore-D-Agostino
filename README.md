@@ -1,59 +1,59 @@
-# IncluDO - Progetto di Formazione per Migranti
+# IncluDO - Migrant Training Project
 
-Questo progetto è un esempio di applicazione per la gestione dei corsi di formazione per migranti, sviluppata utilizzando TypeScript. Include le seguenti funzionalità:
+his project is an example application for managing training courses for migrants, developed using TypeScript. It includes the following functionalities:
 
-- Gestione delle informazioni dei partecipanti (migranti).
-- Gestione delle informazioni sui corsi di formazione.
-- Offerte di posizioni lavorative da parte delle aziende partner.
+- Management of participant information (migrants).
+- Management of training course information.
+- Job offerings from partner companies.
 
-## Struttura del Progetto
+## Project Structure
 
-- `src/`: Contiene i file sorgente TypeScript.
+- `src/`: Contains TypeScript source files.
 
-  - `src/classes/`: Contiene le classi TypeScript.
-  - `src/interfaces/`: Contiene le interfacce TypeScript.
-  - `src/app.ts`: File principale dell'applicazione.
+  - `src/classes/`: Contains TypeScript classes.
+  - `src/interfaces/`: Contains TypeScript interfaces.
+  - `src/app.ts`: Main application file.
 
-- `dist/`: Contiene i file JavaScript compilati.
+- `dist/`: Contains compiled JavaScript files. (after invoking the Typescript Compiler)
 
-  - `dist/classes/`: Contiene le classi JavaScript compilate.
-  - `dist/interfaces/`: Contiene le interfacce JavaScript compilate.
-  - `dist/app.js`: File principale compilato.
+  - `dist/classes/`: Contains compiled JavaScript classes.
+  - `dist/interfaces/`: Contains compiled JavaScript interfaces.
+  - `dist/app.js`: Compiled main file.
 
-- `tsconfig.json`: Configurazione del compilatore TypeScript.
+- `tsconfig.json`: TypeScript compiler configuration.
 
-## Prerequisiti
+## Prerequisites
 
-Assicurati di avere installato Node.js e npm (Node Package Manager) sul tuo sistema.
+Make sure you have Node.js and npm (Node Package Manager) installed on your system.
 
-## Istruzioni per l'Installazione
+## Installation Instructions
 
-1. **Clona il repository dal tuo account GitHub:**
+1. **Clone the repository from your GitHub account:**
 
    ```bash
    git clone https://github.com/SalvatoreDag/Progetto-Typescript-Salvatore-D-Agostino
    ```
 
-2. **Invoca il TypeScript Compiler:**
+2. **Invoke the TypeScript Compiler:**
 
    ```
    tsc
    ```
 
-3. **Naviga nella cartella dist**
+3. **Navigate to the dist folder:**
 
 ```
    cd dist
  ```
 
-4. **Esegui il file JavaScript**
+4. **Run the JavaScript file**
 
 ```
    node app.js
 ```
 
-## Testare il codice su CodePen
+## Testing the Code on CodePen
  
- Puoi testare il codice su CodePen (il codice non è diviso in diversi file perché CodePen non lo permette)
+You can test the code on CodePen (the code isn't split into separate files because CodePen doesn't allow it):
 
  https://codepen.io/salvatoredag/pen/oNqqpre
