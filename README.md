@@ -20,8 +20,6 @@ Questo progetto è un esempio di applicazione per la gestione dei corsi di forma
   - `dist/interfaces/`: Contiene le interfacce JavaScript compilate.
   - `dist/app.js`: File principale compilato.
 
-- `index.html`: Pagina HTML che include il file JavaScript compilato.
-
 - `tsconfig.json`: Configurazione del compilatore TypeScript.
 
 ## Prerequisiti
@@ -45,11 +43,17 @@ Assicurati di avere installato Node.js e npm (Node Package Manager) sul tuo sist
 3. **Naviga nella cartella dist**
 
 ```
-cd dist
+   cd dist
  ```
 
 4. **Esegui il file JavaScript**
 
 ```
-node app.js
+   node app.js
 ```
+
+## Testare il codice su CodePen
+ 
+ Puoi testare il codice su CodePen (il codice non è diviso in diversi file perché CodePen non lo permette)
+
+ https://codepen.io/salvatoredag/pen/oNqqpre
