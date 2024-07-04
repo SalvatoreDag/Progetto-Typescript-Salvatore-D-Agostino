@@ -13,6 +13,7 @@ export class Partecipante implements IPartecipante {
   ){}
   
   iscrivitiCorso(corso: ICorso): void {
-      
+      corso.aggiungiPartecipante(this);
+      console.log(`${this.nome} ${this.cognome} è iscritto al corso ${corso.titolo}`)
   }
 }

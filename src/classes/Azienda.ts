@@ -9,5 +9,10 @@ export class Azienda implements IAzienda {
     public posizioni: string[]
   ) {}
 
-  offriPosizione(partecipante: IPartecipante): void {}
+  offriPosizione(partecipante: IPartecipante, posizione: string): void {
+    this.posizioni.push(posizione);
+    console.log(
+      `Offerta posizione "${posizione}" proposta da ${this.nomeAzienda} a ${partecipante.nome} ${partecipante.cognome}`
+    );
+  }
 }

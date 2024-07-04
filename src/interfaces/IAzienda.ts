@@ -6,5 +6,5 @@ export interface IAzienda {
   descrizione: string;
   posizioni: string[];
 
-  offriPosizione(partecipante: IPartecipante): void;
+  offriPosizione(partecipante: IPartecipante, posizione: string): void;
 }

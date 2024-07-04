@@ -10,5 +10,8 @@ export class Corso implements ICorso {
     public iscritti: IPartecipante[]
   ) {}
 
-  aggiungiPartecipante(partecipante: IPartecipante): void {}
+  aggiungiPartecipante(partecipante: IPartecipante): void {
+    this.iscritti.push(partecipante);
+    console.log(`${partecipante.nome} ${partecipante.cognome} aggiunto al corso ${this.titolo}`)
+  }
 }
