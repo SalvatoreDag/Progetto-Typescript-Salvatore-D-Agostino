@@ -42,15 +42,15 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
 
 3. **Navigate to the dist folder:**
 
-```
-   cd dist
- ```
+   ```
+     cd dist
+   ```
 
 4. **Run the JavaScript file**
 
-```
+   ```
    node app.js
-```
+   ```
 
 ## Testing the Code on CodePen
  
