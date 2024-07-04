@@ -1,1 +1,3 @@
 dist/*.js
+dist/classes*.js
+dist/interfaces*.js
