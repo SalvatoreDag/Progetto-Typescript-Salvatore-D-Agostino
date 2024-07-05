@@ -31,13 +31,13 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
 1. **Clone the repository from your GitHub account:**
 
    ```bash
-   git clone https://github.com/SalvatoreDag/Progetto-Typescript-Salvatore-D-Agostino
+     git clone https://github.com/SalvatoreDag/Progetto-Typescript-Salvatore-D-Agostino
    ```
 
 2. **Invoke the TypeScript Compiler:**
 
    ```
-   tsc
+     tsc
    ```
 
 3. **Navigate to the dist folder:**
@@ -49,7 +49,7 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your syst
 4. **Run the JavaScript file**
 
    ```
-   node app.js
+     node app.js
    ```
 
 ## Testing the Code on CodePen
