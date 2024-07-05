@@ -1,6 +1,6 @@
 # IncluDO - Migrant Training Project
 
-his project is an example application for managing training courses for migrants, developed using TypeScript. It includes the following functionalities:
+This project is an example application for managing training courses for migrants, developed using TypeScript. It includes the following functionalities:
 
 - Management of participant information (migrants).
 - Management of training course information.
